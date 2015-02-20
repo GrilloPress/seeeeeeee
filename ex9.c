@@ -35,6 +35,7 @@ int main(int argc, char *argv[])
 	// this now spells out AND as the nul byte indicates where to stop rather than the program using the first char as the place to stop
 	
 	char *another = "Andrew";
+	// this is the preferred way of defining string literals, that is instead of name[4] etc
 	
 	printf("another equals %s \n", another);
 	
